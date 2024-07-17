@@ -22,11 +22,32 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: yellow;
+    /* background-color: rgb(255, 255, 255); */
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 20px rgb(165, 237, 23);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
 }
+
+/* Text */
+
+.text{
+    visibility: none;
+    display: none; 
+    color: #000;
+    position: absolute;
+    padding: 20px;
+}
+
+.inner_text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .this:hover .text{
+    display: block;
+} */
 
 /* Sun */
 .sun{
@@ -85,15 +106,15 @@ body {
     }
 }
 
-/* Marsh */
-.marsh{
+/* Mars */
+.mars{
     background-color: rgb(101, 23, 23);
     width: 23px;
     height: 23px;
-    animation: orbit-marsh 14s linear infinite;
+    animation: orbit-mars 14s linear infinite;
 }
 
-@keyframes orbit-marsh {
+@keyframes orbit-mars {
     from {
         transform: rotate(0deg) translateX(150px) translateY(25px) rotate(0deg);
     }
