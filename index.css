@@ -30,8 +30,9 @@ body {
 
 /* Text */
 
+.this{cursor: pointer;}
+
 .text{
-    visibility: none;
     display: none; 
     color: #000;
     position: absolute;
@@ -45,9 +46,9 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-/* .this:hover .text{
+.show{
     display: block;
-} */
+}
 
 /* Sun */
 .sun{
